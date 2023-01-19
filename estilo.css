@@ -40,3 +40,23 @@ body {
     padding: 5px;
     text-transform: uppercase;
 }
+/* :hover es una pseudo-clase de CSS que coincide cuando el usuario interactúa con un 
+elemento con un dispositivo señalador. Generalmente se activa cuando el usuario se desplaza 
+sobre un elemento con el cursor.
+En este caso se aplica esta funcionalidad a cada enlace (<a>) del elemento de sección de 
+navegación (<nav>)*/
+.contenedor-header header nav a:hover {
+    color: #ff1133;
+}
+.contenedor-header header .redes a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px, 8px;
+}
+.contenedor-header header .redes a:hover {
+    color: #ff1133;
+}
+.nav-responsive {
+    font-size: 25px;
+}
